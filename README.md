@@ -15,7 +15,7 @@ Usage
 -----
 
 ```xml
-<taskdef name="jlessc" classname="com.simplicite.ant.JLessCAntTask">
+<taskdef name="jlessc" classname="com.simplicite.ant.JLessC">
 	<classpath>
 		<pathelement location="<path to>/jlessc-x.y.jar"/>
 		<pathelement location="<path to>/jlessc-ant-x.y.jar"/>
