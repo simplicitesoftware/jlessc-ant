@@ -1,0 +1,27 @@
+@import "vars";
+
+.test {
+	width: @font-size * 5;
+	height: @font-size * 2;
+	border-style: solid;
+	border-width: 15px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: @font-size + 6px;
+	padding: @font-size * 1.5;
+	text-align: center;
+	margin: @font-size / 2;
+	float: left;
+}
+.default { .test; border-color: @default-strong; background: @default; }
+.red { .test; border-color: @red-strong; background: @red; }
+.orange { .test; border-color: @orange-strong; background: @orange; }
+.green { .test; border-color: @green-strong; background: @green; }
+.blue { .test; border-color: @blue-strong; background: @blue; }
+.purple { .test; border-color: @purple-strong; background: @purple; }
+.pink { .test; border-color: @pink-strong; background: @pink; }
+.brown { .test; border-color: @brown-strong; background: @brown; }
+.yellow { .test; border-color: @yellow-strong; background: @yellow; color: #000000; }
+.white { .test; border-color: @white-strong; background: @white; color: #000000; }
+.grey { .test; border-color: @grey-strong; background: @grey; color: #000000; }
+.black { .test; border-color: @black-strong; background: @black; }
