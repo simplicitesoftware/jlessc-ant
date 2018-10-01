@@ -9,7 +9,7 @@ import org.apache.tools.ant.Task;
 
 import com.inet.lib.less.Less;
 
-public class JLesscAntTask extends Task {
+public class JLessCAntTask extends Task {
 	String file;
 	public void setFile(String f) { file = f; }
 

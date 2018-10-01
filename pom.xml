@@ -3,8 +3,8 @@
   <groupId>com.simplicite</groupId>
   <artifactId>jlessc-ant</artifactId>
   <version>1.6</version>
-  <name>JLessc Ant task</name>
-  <description>Simple Apache Ant task for JLessc</description>
+  <name>JLessC Ant task</name>
+  <description>Simple Apache Ant task for JLessC</description>
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
