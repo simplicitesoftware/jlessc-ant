@@ -1,3 +1,6 @@
+![Simplicit&eacute; Software](https://www.simplicite.io/resources/logos/logo250.png)
+***
+
 Apache Ant task for JLessc
 ==========================
 
@@ -10,7 +13,7 @@ Usage
 -----
 
 ```xml
-<taskdef name="jlessc" classname="com.inet.lib.less.LessAntTask">
+<taskdef name="jlessc" classname="com.simplicite.ant.JLesscAntTask">
 	<classpath>
 		<pathelement location="<path to>/jlessc-x.y.jar"/>
 		<pathelement location="<path to>/jlessc-ant-x.y.jar"/>
