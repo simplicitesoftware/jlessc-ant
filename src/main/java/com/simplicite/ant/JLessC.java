@@ -10,10 +10,20 @@ import org.apache.tools.ant.Task;
 import com.inet.lib.less.Less;
 
 public class JLessC extends Task {
-	String file;
+	private String file;
+
+	/**
+	 * Set source file
+	 * @param f File path
+	 */
 	public void setFile(String f) { file = f; }
 
-	String output;
+	private String output;
+
+	/**
+	 * Set output file
+	 * @param f File path
+	 */
 	public void setOutput(String f) { output = f; }
 
 	private void writeCSSFile(String css) throws IOException {
@@ -24,6 +34,9 @@ public class JLessC extends Task {
 	}
 
 	@Override
+	/**
+	 * Execute JLessC task
+	 */
 	public void execute() {
 		if (file == null) throw new BuildException("Missing file");
 		try {
