@@ -1,3 +1,4 @@
-target
-.idea
-*.iml
+/target
+/.idea
+/*.iml
+/effective.pom
