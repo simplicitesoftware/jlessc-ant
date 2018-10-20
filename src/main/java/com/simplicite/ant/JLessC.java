@@ -27,9 +27,10 @@ public class JLessC extends Task {
 	public void setOutput(String f) { output = f; }
 
 	private void writeCSSFile(String css) throws IOException {
-		FileOutputStream out = new FileOutputStream(output);
-		out.write(css.getBytes());
-		out.close();
+		try (FileOutputStream out = new FileOutputStream(output))
+		{
+			out.write(css.getBytes());
+		}
 		log("CSS file written: " + output);
 	}
 
@@ -46,10 +47,12 @@ public class JLessC extends Task {
 				if (file.endsWith(".less")) {
 					output = file.replaceFirst("\\.less$", ".css");
 					writeCSSFile(css);
-				} else
+				} else {
 					log(css);
-			} else
+				}
+			} else {
 				writeCSSFile(css);
+			}
 		} catch (Exception e) {
 			throw new BuildException(e);
 		}
