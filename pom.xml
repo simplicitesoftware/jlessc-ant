@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.simplicite</groupId>
   <artifactId>jlessc-ant</artifactId>
-  <version>1.6</version>
+  <version>1.7</version>
   <name>JLessC Ant task</name>
   <description>Simple Apache Ant task for JLessC</description>
   <licenses>
@@ -35,7 +35,7 @@
   	<dependency>
   		<groupId>de.inetsoftware</groupId>
   		<artifactId>jlessc</artifactId>
-  		<version>1.6</version>
+  		<version>1.7</version>
   	</dependency>
   </dependencies>
 </project>
