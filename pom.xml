@@ -5,12 +5,16 @@
   <version>1.8</version>
   <name>JLessC Ant task</name>
   <description>Simple Apache Ant task for JLessC</description>
+  <url>https://github.com/simplicitesoftware/jlessc-ant/blob/master/README.md</url>
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
       <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
     </license>
   </licenses>
+  <scm>
+    <url>https://github.com/simplicitesoftware/jlessc-ant</url>
+  </scm>
   <organization>
     <name>Simplicite Software</name>
     <url>https://www.simplicite.io</url>
