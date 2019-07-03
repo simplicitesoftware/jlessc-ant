@@ -4,6 +4,8 @@
 Apache Ant task for JLessC
 ==========================
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=jlessc-ant&metric=alert_status)](https://sonarcloud.io/dashboard?id=jlessc-ant)
+
 This is an Apache Ant task for the [JLessC](https://github.com/i-net-software/jlessc) Less compiler.
 
 Build
