@@ -9,6 +9,10 @@ import org.apache.tools.ant.Task;
 
 import com.inet.lib.less.Less;
 
+/**
+ * JLessC Ant task
+ * @author Simplicite Software
+ */
 public class JLessC extends Task {
 	private String file;
 
