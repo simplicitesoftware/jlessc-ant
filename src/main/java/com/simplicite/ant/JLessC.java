@@ -31,8 +31,7 @@ public class JLessC extends Task {
 	public void setOutput(String f) { output = f; }
 
 	private void writeCSSFile(String css) throws IOException {
-		try (FileOutputStream out = new FileOutputStream(output))
-		{
+		try (FileOutputStream out = new FileOutputStream(output)) {
 			out.write(css.getBytes());
 		}
 		log("CSS file written: " + output);
