@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.simplicite</groupId>
   <artifactId>jlessc-ant</artifactId>
-  <version>1.11</version>
+  <version>1.12</version>
   <name>JLessC Ant task</name>
   <description>Simple Apache Ant task for JLessC</description>
   <url>https://github.com/simplicitesoftware/jlessc-ant/blob/master/README.md</url>
@@ -21,8 +21,8 @@
   </organization>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
   </properties>
   <packaging>jar</packaging>
   <dependencies>
@@ -39,7 +39,7 @@
     <dependency>
       <groupId>de.inetsoftware</groupId>
       <artifactId>jlessc</artifactId>
-      <version>1.11</version>
+      <version>1.12</version>
     </dependency>
   </dependencies>
 </project>
