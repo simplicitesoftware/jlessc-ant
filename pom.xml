@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.simplicite</groupId>
   <artifactId>jlessc-ant</artifactId>
-  <version>1.12</version>
+  <version>1.12.1</version>
   <name>JLessC Ant task</name>
   <description>Simple Apache Ant task for JLessC</description>
   <url>https://github.com/simplicitesoftware/jlessc-ant/blob/master/README.md</url>
@@ -29,12 +29,12 @@
     <dependency>
       <groupId>org.apache.ant</groupId>
       <artifactId>ant</artifactId>
-      <version>1.10.14</version>
+      <version>1.10.15</version>
     </dependency>
     <dependency>
       <groupId>org.apache.ant</groupId>
       <artifactId>ant-launcher</artifactId>
-      <version>1.10.14</version>
+      <version>1.10.15</version>
     </dependency>
     <dependency>
       <groupId>de.inetsoftware</groupId>
