@@ -9,6 +9,7 @@ Apache Ant task for JLessC
 Build
 -----
 
+	rm -fr target
 	mvn clean package
 
 Test
