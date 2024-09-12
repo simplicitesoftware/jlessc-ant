@@ -43,3 +43,6 @@ Publish
 ```
 
 Such credentials can be generated on your [Sonatype account page](https://central.sonatype.com/account)
+
+If everything works fine you should see the deployement on your [Sonatype publishing page](https://central.sonatype.com/publishing/deployment]
+and you can publish it.
