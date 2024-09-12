@@ -1,4 +1,4 @@
-package com.simplicite.ant;
+package com.simplicitesoftware.ant;
 
 import java.io.File;
 import java.io.FileOutputStream;

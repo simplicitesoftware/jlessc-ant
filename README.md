@@ -12,7 +12,7 @@ Usage
 In your project's `build.xml`, define the `jlessc` task:
 
 ```xml
-<taskdef name="jlessc" classname="com.simplicite.ant.JLessC">
+<taskdef name="jlessc" classname="com.simplicitesoftware.ant.JLessC">
 	<classpath>
 		<pathelement location="<path to>/jlessc-x.y.jar"/>
 		<pathelement location="<path to>/jlessc-ant-x.y.jar"/>

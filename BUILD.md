@@ -11,6 +11,15 @@ Build
 
 	mvn clean package
 
+Test
+----
+
+	mvn dependency:copy-dependencies
+	cd src/test/resources
+	ant -Djlessc.lib.version=x.y -Djlessc.task.version=x.y.z test
+
+where the above `x.y[.z]` version numbers correspond to the version numbers of the JLessC lib and of the Ant task (see the `pom.xml`).
+
 Publish
 -------
 

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="jlessc-ant-test" basedir="." default="test">
 
-	<taskdef name="jlessc" classname="com.inet.lib.less.LessAntTask" classpath="../build/jlessc-1.5.jar"/>
+	<taskdef name="jlessc" classname="com.simplicitesoftware.ant.JLessC">
+		<classpath>
+			<pathelement location="../../../target/dependency/jlessc-${jlessc.lib.version}.jar"/>
+			<pathelement location="../../../target/jlessc-ant-${jlessc.task.version}.jar"/>
+		</classpath>
+	</taskdef>
 
  	<target name="test">
  		<delete><fileset dir="." includes="*.css"></fileset></delete>
