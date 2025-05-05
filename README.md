@@ -1,4 +1,4 @@
-![Simplicit&eacute; Software](https://www.simplicite.io/resources/logos/logo250.png)
+![Simplicit&eacute; Software](https://platform.simplicite.io/logos/logo250.png)
 ***
 
 Apache Ant task for JLessC
