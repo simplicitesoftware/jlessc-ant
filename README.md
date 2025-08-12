@@ -9,6 +9,16 @@ This is an Apache Ant task for the [JLessC](https://github.com/i-net-software/jl
 Usage
 -----
 
+Add the following dependency to you project:
+
+```xml
+<dependency>
+  <groupId>io.github.simplicitesoftware</groupId>
+  <artifactId>jlessc-ant</artifactId>
+  <version>1.12.2</version>
+</dependency>
+```
+
 In your project's `build.xml`, define the `jlessc` task:
 
 ```xml
@@ -19,9 +29,9 @@ In your project's `build.xml`, define the `jlessc` task:
 	</classpath>
 </taskdef>
  ```
- 
+
  Then use it like this:
- 
+
  ```xml
 <target name="test">
 	<jlessc file="<path to>/mytest.less"[ output="<path to>/mytest.css"]/>

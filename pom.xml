@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.simplicitesoftware</groupId>
   <artifactId>jlessc-ant</artifactId>
-  <version>1.12.2</version>
+  <version>1.14.0</version>
   <name>JLessC Ant task</name>
   <description>Simple Apache Ant task for JLessC</description>
   <url>https://github.com/simplicitesoftware/jlessc-ant/blob/master/README.md</url>
@@ -40,7 +40,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
-        <version>3.10.0</version>
+        <version>3.11.2</version>
         <executions>
           <execution>
             <goals>
@@ -79,7 +79,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-gpg-plugin</artifactId>
-        <version>3.2.5</version>
+        <version>3.2.8</version>
         <executions>
           <execution>
             <goals>
@@ -92,7 +92,7 @@
       <plugin>
         <groupId>org.sonatype.central</groupId>
         <artifactId>central-publishing-maven-plugin</artifactId>
-        <version>0.5.0</version>
+        <version>0.8.0</version>
         <extensions>true</extensions>
         <configuration>
           <publishingServerId>central</publishingServerId>
@@ -114,7 +114,7 @@
     <dependency>
       <groupId>de.inetsoftware</groupId>
       <artifactId>jlessc</artifactId>
-      <version>1.12</version>
+      <version>1.14</version>
     </dependency>
   </dependencies>
 </project>
