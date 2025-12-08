@@ -1,4 +1,4 @@
-![Simplicit&eacute; Software](https://platform.simplicite.io/logos/logo250.png)
+![Simplicite Software](https://platform.simplicite.io/logos/logo250.png)
 ***
 
 Apache Ant task for JLessC
@@ -9,22 +9,28 @@ Apache Ant task for JLessC
 Build
 -----
 
-	rm -fr target
-	mvn clean package
+```shell
+rm -fr target
+mvn clean package
+```
 
 Test
 ----
 
-	mvn dependency:copy-dependencies
-	cd src/test/resources
-	ant -Djlessc.lib.version=x.y -Djlessc.task.version=x.y.z test
+```shell
+mvn dependency:copy-dependencies
+cd src/test/resources
+ant -Djlessc.lib.version=x.y -Djlessc.task.version=x.y.z test
+```
 
 where the above `x.y[.z]` version numbers correspond to the version numbers of the JLessC lib and of the Ant task (see the `pom.xml`).
 
 Publish
 -------
 
-	mvn deploy
+```shell
+mvn deploy
+```
 
 **Note**: before publishing make sure you have defined the `central` server with credentials in yous Maven's `setting.xml`, e.g.:
 
@@ -44,5 +50,5 @@ Publish
 
 Such credentials can be generated on your [Sonatype account page](https://central.sonatype.com/account)
 
-If everything works fine you should see the deployment on your [Sonatype publishing page](https://central.sonatype.com/publishing/deployment]
+If everything works fine you should see the deployment on your [Sonatype publishing page](https://central.sonatype.com/publishing/deployment)
 and you can publish it.

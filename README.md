@@ -1,4 +1,4 @@
-![Simplicit&eacute; Software](https://platform.simplicite.io/logos/logo250.png)
+![Simplicite Software](https://platform.simplicite.io/logos/logo250.png)
 ***
 
 Apache Ant task for JLessC
@@ -23,10 +23,10 @@ In your project's `build.xml`, define the `jlessc` task:
 
 ```xml
 <taskdef name="jlessc" classname="com.simplicitesoftware.ant.JLessC">
-	<classpath>
-		<pathelement location="<path to>/jlessc-x.y.jar"/>
-		<pathelement location="<path to>/jlessc-ant-x.y.jar"/>
-	</classpath>
+  <classpath>
+    <pathelement location="<path to>/jlessc-x.y.jar"/>
+    <pathelement location="<path to>/jlessc-ant-x.y.jar"/>
+  </classpath>
 </taskdef>
  ```
 
@@ -34,7 +34,7 @@ In your project's `build.xml`, define the `jlessc` task:
 
  ```xml
 <target name="test">
-	<jlessc file="<path to>/mytest.less"[ output="<path to>/mytest.css"]/>
+  <jlessc file="<path to>/mytest.less"[ output="<path to>/mytest.css"]/>
 </target>
 ```
 
