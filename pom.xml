@@ -63,7 +63,7 @@
           </execution>
         </executions>
       </plugin>
-	  <plugin>
+	    <plugin>
         <groupId>net.nicoulaj.maven.plugins</groupId>
         <artifactId>checksum-maven-plugin</artifactId>
         <version>1.11</version>
